@@ -1,0 +1,47 @@
+@import './colors';
+
+.header {
+  background-color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  font-family: 'Source Code Pro', monospace;
+  color: #DADADA;
+}
+
+.header-left img {
+  vertical-align: baseline;
+}
+
+.header-right {
+  line-height: 40px;
+}
+
+.header-right a {
+  text-decoration: none;
+  margin-left: 30px;
+  line-height: 38px;
+  font-weight: bold;
+  color: #666666;
+  display: inline-block;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+
+  &.active-tab {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+  }
+
+  &:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: #AAAAAA;
+  }
+}

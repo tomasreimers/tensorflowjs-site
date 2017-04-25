@@ -1,0 +1,32 @@
+@import './colors';
+
+.splash-page {
+  background: url('/images/back.png') right top no-repeat;
+}
+
+.splash-top {
+  margin: 100px;
+  text-align: center;
+  font-size: 36px;
+  text-shadow: 0 0 10px #FFFFFF;
+}
+
+.splash-top .loud {
+  color: $mid_orange;
+}
+
+.splash-text {
+  display: inline-block;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 40px 20px #FFFFFF;
+}
+
+.splash-panels .panel .panel-body {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.splash-panels .panel .panel-body .bold {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
